@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul{
+    width: 100vw;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    background-color: #2874f0;
+    color: white;
+    font-size: larger;
+    font-family: 'Heebo', sans-serif;
+
+}
+header nav ul li{
+    margin: auto 10px auto 10px;
+    color: white;
+}
+
+#logoimg{
+    height: 9vh;
+    border-radius: 5px;
+
+}
+
+header{
+    height: 10vh;
+    width: 100vw;
+    color: white;
+}
+#searchbar{
+    border-radius: 10px;
+    width: 40vh;
+}
+
+.container2{
+    display: inline-flex;
+    align-items: center;
+    
+    height: 30vh;
+    overflow-x:scroll;
+    width: 130vw;
+    
+}
+
+.container2 img{
+    width:20vw;
+    height: 25vh;
+    margin: auto 5px;
+}
+
+body{
+    background-color: white;
+    font-family:'Heebo', sans-serif ;
+   
+}
+
+.container1{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 1vh 1vw;
+    font-size: 35px;
+}
+
+.container1 p{
+    align-items: center;
+}
+.footer{
+    display: inline-block;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 900;
+    font-family:Heebo;
+    background-color: #2874f0;
+}
+
+.footer p{
+    margin: auto 40vh;
+    width:100vw
+}
+
+img{
+    transition: width 1sec ease-in;
+}
+main img:hover{
+    width:25vw;
+    height: 30vh;
+}
